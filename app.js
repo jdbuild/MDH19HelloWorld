@@ -6,7 +6,7 @@ app.use(cookieParser())
 app.set('port', (process.env.PORT || 3000));
 
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello Jakob!'))
 
 app.get('/cookies', (req, res) => {
     // Read cookies
